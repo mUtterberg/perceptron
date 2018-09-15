@@ -1,6 +1,6 @@
 # perceptron
 
-The algorithm in [feedforward.m](https://github.com/mUtterberg/perceptron/blob/master/feedforward.m) is a simple feedforward neural net with one logistic hidden layer and a linear output layer. It takes in:
+The algorithms in [feedforward.m](https://github.com/mUtterberg/perceptron/blob/master/feedforward.m) and [feedforward.py](https://github.com/mUtterberg/perceptron/blob/master/feedforward.py) are based on a simple feedforward neural net with one logistic hidden layer and a linear output layer. They take in:
 
 * W1 (an nxm matrix representing the weights from the input layer to the hidden layer),
 
@@ -8,6 +8,6 @@ The algorithm in [feedforward.m](https://github.com/mUtterberg/perceptron/blob/m
 
 * X (a kxn matrix representing the data points)
 
-and returns:
+and return:
 
-* Predicted value
+* A predicted value
